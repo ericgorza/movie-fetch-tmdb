@@ -1,0 +1,42 @@
+.movie-card {
+    display: flex;
+    width: 30%;
+    color: #fff;
+    margin-bottom: 2.5rem;
+    margin-left: 20px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #111;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.movie-card img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.movie-card h2 {
+    margin-bottom: 10px;
+}
+
+.movie-card p {
+    margin-bottom: 10px;
+}
+
+.movie-card div a {
+    cursor: pointer;
+    background-color: #f7d354;
+    border: 2px solid #f7d254;
+    border-radius: 4px;
+    color:#000;
+    transition: 0.4s;
+}
+
+.movie-card div a:hover {
+    background-color: transparent;
+    color: #f7d354;
+}
+
